@@ -5,10 +5,14 @@ Helm's [documentation](https://helm.sh/docs) to get started.
 
 Once Helm has been set up correctly, add the repo as follows:
 
+```
 helm repo add jaanhio-charts https://jaanhio.github.io/jaanhio-helm-charts
+```
 
 If you had already added this repo earlier, run `helm repo update` to retrieve
-the latest versions of the packages. You can then run `helm search repo jaanhio-charts` to see the charts.
+the latest versions of the packages.
+
+You can then run `helm search repo jaanhio-charts` to see the charts.
 
 To install the <chart-name> chart:
 
