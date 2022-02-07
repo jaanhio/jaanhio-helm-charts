@@ -21,3 +21,5 @@ To install the <chart-name> chart:
 To uninstall the chart:
 
     helm delete <release-name>
+
+Back to [main page](https://jaanhio.me).
