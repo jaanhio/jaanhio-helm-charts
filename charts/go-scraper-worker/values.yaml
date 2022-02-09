@@ -5,10 +5,10 @@
 replicaCount: 1
 
 image:
-  repository: jaanhio/scraper-viz
+  repository: jaanhio/go-scraper-worker
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "latest"
+  tag: "v1.4.4__linux_amd64"
 
 imagePullSecrets: []
 nameOverride: ""
