@@ -20,6 +20,6 @@ jobs:
         git config user.email jianhaot.89@gmail.com
 
     - name: Run chart-releaser
-      uses: helm/chart-releaser-action@v1.1.0
+      uses: helm/chart-releaser-action@v1.3.0
       env:
         CR_TOKEN: "${{ secrets.HELM_CHARTS_TOKEN }}"
