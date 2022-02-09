@@ -11,4 +11,15 @@ entries:
     urls:
     - https://github.com/jaanhio/jaanhio-helm-charts/releases/download/nodejs-scraper-backend-0.1.1/nodejs-scraper-backend-0.1.1.tgz
     version: 0.1.1
-generated: "2022-02-07T01:22:01.348637072Z"
+  scraper-viz:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-02-09T06:13:30.823413277Z"
+    description: Scraper-viz helm chart
+    digest: c26fc7cb869dd6a4724721294da38a0399078b87e442420f6142305b777cc352
+    name: scraper-viz
+    type: application
+    urls:
+    - https://github.com/jaanhio/jaanhio-helm-charts/releases/download/scraper-viz-0.1.2/scraper-viz-0.1.2.tgz
+    version: 0.1.2
+generated: "2022-02-09T06:13:30.823418077Z"
