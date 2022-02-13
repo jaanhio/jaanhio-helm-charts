@@ -3,6 +3,16 @@ entries:
   go-scraper-worker:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2022-02-13T11:22:36.941670367Z"
+    description: go-scraper-worker helm chart
+    digest: 2dab261f798470587413b81963f99b4e5742b0e2391cf7ee5880fdd4c7230b18
+    name: go-scraper-worker
+    type: application
+    urls:
+    - https://github.com/jaanhio/jaanhio-helm-charts/releases/download/go-scraper-worker-0.1.4/go-scraper-worker-0.1.4.tgz
+    version: 0.1.4
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2022-02-09T10:08:14.546567595Z"
     description: go-scraper-worker helm chart
     digest: e5103cca5a073d71aefba0639fa08371a2a8387c9c24c440b11e5f8c719bfa39
@@ -63,4 +73,4 @@ entries:
     urls:
     - https://github.com/jaanhio/jaanhio-helm-charts/releases/download/scraper-viz-0.1.2/scraper-viz-0.1.2.tgz
     version: 0.1.2
-generated: "2022-02-10T01:50:00.436328248Z"
+generated: "2022-02-13T11:22:36.941696369Z"
