@@ -8,7 +8,7 @@ image:
   repository: jaanhio/go-scraper-worker
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "v1.4.4__linux_amd64"
+  tag: "v1.4.5__linux_amd64"
 
 imagePullSecrets: []
 nameOverride: ""
@@ -67,3 +67,7 @@ nodeSelector: {}
 tolerations: []
 
 affinity: {}
+
+# base64 encoded env file string (each key separated by a newline) to be injected into pod via volume.
+# DO NOT COMMIT THIS
+podEnvSecrets: ""
