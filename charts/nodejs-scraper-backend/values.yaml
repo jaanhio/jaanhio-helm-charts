@@ -81,3 +81,7 @@ nodeSelector: {}
 tolerations: []
 
 affinity: {}
+
+# base64 encoded env file string (each key separated by a newline) to be injected into pod via volume.
+# DO NOT COMMIT THIS
+podEnvSecrets: ""
