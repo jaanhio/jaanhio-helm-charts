@@ -6,9 +6,10 @@ replicaCount: 1
 
 image:
   repository: jaanhio/scraper-backend
-  pullPolicy: IfNotPresent
+  # pullPolicy: IfNotPresent
+  pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "latest"
+  tag: "v1.0.4"
 
 imagePullSecrets: []
 nameOverride: ""
@@ -36,9 +37,15 @@ securityContext: {}
   # runAsNonRoot: true
   # runAsUser: 1000
 
+livenessProbe:
+  enabled: false
+
+readinessProbe:
+  enabled: false
+
 service:
   type: ClusterIP
-  port: 8125
+  port: 8150
 
 ingress:
   enabled: false
