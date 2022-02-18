@@ -44,6 +44,16 @@ entries:
   nodejs-scraper-backend:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2022-02-18T06:56:37.22711222Z"
+    description: nodejs-scraper-backend helm chart
+    digest: f945a0033959f5300dfb8dc608696e6325198cb220380ddd8636b709fc7ee115
+    name: nodejs-scraper-backend
+    type: application
+    urls:
+    - https://github.com/jaanhio/jaanhio-helm-charts/releases/download/nodejs-scraper-backend-0.1.7/nodejs-scraper-backend-0.1.7.tgz
+    version: 0.1.7
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2022-02-17T14:36:04.261991202Z"
     description: nodejs-scraper-backend helm chart
     digest: 0c573c836fe297eac7efbf5a69ea6129099802dfb42d90367579b8ff02653ead
@@ -143,4 +153,4 @@ entries:
     urls:
     - https://github.com/jaanhio/jaanhio-helm-charts/releases/download/scraper-viz-0.1.2/scraper-viz-0.1.2.tgz
     version: 0.1.2
-generated: "2022-02-17T14:36:04.399892609Z"
+generated: "2022-02-18T06:56:37.227153523Z"
