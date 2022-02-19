@@ -115,6 +115,16 @@ entries:
   scraper-viz:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2022-02-19T05:47:50.747230065Z"
+    description: Scraper-viz helm chart
+    digest: 03329e12bcb564bd5a096999d1f8d9ea1665b5989c2525984900082231ab1bb6
+    name: scraper-viz
+    type: application
+    urls:
+    - https://github.com/jaanhio/jaanhio-helm-charts/releases/download/scraper-viz-0.1.6/scraper-viz-0.1.6.tgz
+    version: 0.1.6
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2022-02-17T14:36:04.399848509Z"
     description: Scraper-viz helm chart
     digest: 35c15c99e9c886a4638c5f74b47adec8f665beb7ade2b9511b2464a1f5ba93a0
@@ -153,4 +163,4 @@ entries:
     urls:
     - https://github.com/jaanhio/jaanhio-helm-charts/releases/download/scraper-viz-0.1.2/scraper-viz-0.1.2.tgz
     version: 0.1.2
-generated: "2022-02-18T06:56:37.227153523Z"
+generated: "2022-02-19T05:47:50.747286765Z"
