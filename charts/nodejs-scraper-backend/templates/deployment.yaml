@@ -20,9 +20,9 @@ spec:
       labels:
         {{- include "charts.selectorLabels" . | nindent 8 }}
     spec:
-      {{- with .Values.imagePullSecrets }}
+      {{- with .Values.dockerRegSecret }}
       imagePullSecrets:
-        {{- toYaml . | nindent 8 }}
+      - name: docker-regcred
       {{- end }}
       serviceAccountName: {{ include "charts.serviceAccountName" . }}
       securityContext:
